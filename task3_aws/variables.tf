@@ -10,7 +10,7 @@ variable "ami" {
   default     = "ami-09cd747c78a9add63"
 }
 
-variable "tag" {
+variable "tags" {
   type = map(string)
   default = {
     "Terraform" = "TRUE",
